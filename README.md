@@ -8,6 +8,20 @@ Note: vscode color theme in the works.
 
 ##### Neovim
 
+Works with:
+
+- Packer
+- Pathogen
+- Vundle
+- Plug
+- NeoBundle
+- Dein
+
+###### Install
+
+`Plug "bamzi/bamzi-theme"`
+or your choice of package manager
+
 To set the theme you can use the following.
 
 ```lua

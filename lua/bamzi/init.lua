@@ -26,6 +26,7 @@ local markdown = require "bamzi.markdown"
 local Whichkey = require "bamzi.Whichkey"
 local Git = require "bamzi.Git"
 local LSP = require "bamzi.LSP"
+local diff = require "onedarker.diff"
 
 local skeletons = {
   highlights,
@@ -34,6 +35,7 @@ local skeletons = {
   Whichkey,
   Git,
   LSP,
+  diff,
 }
 
 for _, skeleton in ipairs(skeletons) do

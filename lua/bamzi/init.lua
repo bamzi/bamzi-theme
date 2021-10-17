@@ -26,7 +26,7 @@ local markdown = require "bamzi.markdown"
 local Whichkey = require "bamzi.Whichkey"
 local Git = require "bamzi.Git"
 local LSP = require "bamzi.LSP"
-local diff = require "onedarker.diff"
+local diff = require "bamzi.diff"
 
 local skeletons = {
   highlights,

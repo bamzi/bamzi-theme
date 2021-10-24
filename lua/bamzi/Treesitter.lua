@@ -49,7 +49,7 @@ local Treesitter = {
   TSURI = { fg = C.cyan, style = "underline" },
   TSKeywordOperator = { fg = C.blue },
   TSKeywordReturn = { fg = C.orange },
-  TSStructure = { fg = C.purple_test },
+  TSStructure = { fg = C.purple },
   TSStrong = { fg = C.yellow },
   TSQueryLinterError = { fg = C.warning_orange },
 }

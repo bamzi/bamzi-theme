@@ -46,8 +46,8 @@ local colors = {
   ui4 = "#81c1a6",
   ui5 = "#1e4334",
   ui6 = "#91e679",
-  ui7 = "#6a5582",
-  ui8 = "#7143a3",
+  ui7 = "#a59ab1",
+  ui8 = "#a8c270",
 }
 
 return colors

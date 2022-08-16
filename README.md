@@ -27,3 +27,9 @@ To set the theme you can use the following.
 ```lua
 vim.cmd[[colorscheme bamzi]]
 ```
+
+### Generator
+
+`cargo install colorgen-nvim`
+
+`colorgen-nvim bamzi.toml`

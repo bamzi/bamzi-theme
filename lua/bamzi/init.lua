@@ -1,45 +1,18 @@
-vim.api.nvim_command "hi clear"
-if vim.fn.exists "syntax_on" then
-  vim.api.nvim_command "syntax reset"
-end
-vim.o.background = "dark"
-vim.o.termguicolors = true
-vim.g.colors_name = "bamzi"
+local M = {}
+local theme = require('bamzi.theme')
 
-local util = require "bamzi.util"
-Config = require "bamzi.config"
-C = require "bamzi.palette"
+M.setup = function()
+  vim.cmd('hi clear')
 
-local async
-async = vim.loop.new_async(vim.schedule_wrap(function()
-  local skeletons = {}
-  for _, skeleton in ipairs(skeletons) do
-    util.initialise(skeleton)
+  vim.o.background = 'dark'
+  if vim.fn.exists('syntax_on') then
+    vim.cmd('syntax reset')
   end
 
-  async:close()
-end))
+  vim.o.termguicolors = true
+  vim.g.colors_name = 'bamzi'
 
-local highlights = require "bamzi.highlights"
-local Treesitter = require "bamzi.Treesitter"
-local markdown = require "bamzi.markdown"
-local Whichkey = require "bamzi.Whichkey"
-local Git = require "bamzi.Git"
-local LSP = require "bamzi.LSP"
-local diff = require "bamzi.diff"
-
-local skeletons = {
-  highlights,
-  Treesitter,
-  markdown,
-  Whichkey,
-  Git,
-  LSP,
-  diff,
-}
-
-for _, skeleton in ipairs(skeletons) do
-  util.initialise(skeleton)
+  theme.set_highlights()
 end
 
-async:send()
+return M

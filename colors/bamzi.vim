@@ -1,2 +1,4 @@
-" Author: Bam Azizi 
-lua require("bamzi")
+lua << EOF
+local bamzi = require("bamzi")
+bamzi.setup({})
+EOF

@@ -362,7 +362,7 @@ TelescopeSelection = '- ui2'
 TelescopeSelectionCaret = 'red ui2'
 TelescopeMatching = 'info - bi'
 TelescopeBorder = 'alt_fg'
-TelescopeNormal = 'fg menu_bg'
+TelescopeNormal = 'fg ui2'
 TelescopePromptPrefix = "hint"
 TelescopePromptTitle = "ui6 - b"
 TelescopeResultsTitle = "ui6 - b"
@@ -373,7 +373,7 @@ TelescopePreviewHyphen = "red"
 [NvimTree]
 NvimTreeFolderIcon = 'link:Directory'
 NvimTreeIndentMarker = 'context'
-NvimTreeNormal = 'fg alt_bg'
+NvimTreeNormal = 'fg ui2'
 NvimTreeVertSplit = 'alt_bg alt_bg'
 NvimTreeFolderName = 'link:Directory'
 NvimTreeOpenedFolderName = 'folder_blue - bi'
@@ -438,7 +438,7 @@ DashboardCenter = 'purple'
 DashboardFooter = 'cyan'
 
 [DiffView]
-DiffViewNormal = 'gray alt_bg'
+DiffViewNormal = 'gray ui2'
 DiffviewStatusAdded = 'sign_add'
 DiffviewStatusModified = 'sign_change'
 DiffviewStatusRenamed = 'sign_change'

@@ -49,6 +49,7 @@ local colors = {
   ui7 = "#a59ab1",
   ui8 = "#a8c270",
   ui9 = "#d8d7cf",
+  ui10 = "#88f5f7",
 }
 
 return colors

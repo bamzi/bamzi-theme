@@ -28,6 +28,7 @@
         "editor.foreground": "#e8f5e0",
         "editor.line_number": "#ffffff22",
         "editor.gutter.background": "#0c1810",
+        "editor.selection": "#ffffff",
         "ghost_element.selected": "#ffffff10",
         "ghost_element.background": "#ffffff08",
         "ghost_element.hover": "#ffffff10",
@@ -93,7 +94,7 @@
             "background": "#0c1810"
           },
           "selection": {
-            "background": "#1c2b41"
+            "background": "#ff0000"
           },
           "caret": {
             "foreground": "#82aaff"
@@ -114,6 +115,13 @@
             "background": "#0c1810"
           }
         },
+        "players": [
+          {
+            "cursor": "#ffff00",
+            "selection": "#ffff0055",
+            "background": "#000000"
+          }
+        ],
         "statusbar": {
           "background": "#0c1810",
           "text": "#c5cdd9"

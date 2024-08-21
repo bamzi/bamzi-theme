@@ -1,0 +1,166 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Bamzi Theme",
+  "author": "Bamzi",
+  "themes": [
+    {
+      "name": "Bamzi",
+      "appearance": "dark",
+      "style": {
+        "text": "#e8f5e0",
+        "caret": "#8b9c91",
+        "background": "#0c1810",
+        "accent": "#47b364",
+        "border": "#ffffff10",
+        "border.variant": "#ffffff10",
+        "panel.background": "#0c1810",
+        "tab_bar.background": "#0c1810",
+        "tab.active_background": "#0c1810",
+        "tab.inactive_background": "#ffffff08",
+        "title_bar.background": "#0c1810",
+        "toolbar.background": "#0c1810",
+        "terminal.background": "#0f0f0f",
+        "surface.background": "#0c1810",
+        "scrollbar.track.border": "#ffffff20",
+        "status_bar.background": "#0c1810",
+        "editor.active_line.background": "#ffffff10",
+        "editor.background": "#0c1810",
+        "editor.foreground": "#e8f5e0",
+        "editor.line_number": "#ffffff22",
+        "editor.gutter.background": "#0c1810",
+        "ghost_element.selected": "#ffffff10",
+        "ghost_element.background": "#ffffff08",
+        "ghost_element.hover": "#ffffff10",
+        "predictive": "#d8d7cf",
+        "info": "#73C991",
+        "hint": "#b6df5d",
+        "conflict": "#CCA700",
+        "unreachable": "#c78f8f",
+        "ghost": "#a59ab1",
+        "warning": "#d59144",
+        "warning.foreground": "#000000",
+        "warning.text": "#000000",
+        "warning.background": "#d59144",
+        "warning.border": "#ffffff10",
+        "error": "#ff757f",
+        "ui": {
+          "background": "#0c1810",
+          "text": "#e8f5e0",
+          "border": "#112217",
+          "background.hover": "#15291b",
+          "background.selected": "#000000"
+        },
+        "syntax": {
+          "comment": {
+            "color": "#46534a"
+          },
+          "constant": {
+            "color": "#88f5f7"
+          },
+          "string": {
+            "color": "#c3e88d"
+          },
+          "variable": {
+            "color": "#c5cdd9"
+          },
+          "keyword": {
+            "color": "#a5b6af"
+          },
+          "function": {
+            "color": "#d6d39e"
+          },
+          "tag": {
+            "color": "#f07178"
+          },
+          "operator": {
+            "color": "#c0b6c9"
+          },
+          "attribute": {
+            "color": "#c792ea"
+          },
+          "type": {
+            "color": "#d9c69b"
+          },
+          "punctuation": {
+            "color": "#67796d"
+          }
+        },
+        "editor": {
+          "background": "#0c1810",
+          "foreground": "#c5cdd9",
+          "line_number": {
+            "text": "#3e4452",
+            "background": "#0c1810"
+          },
+          "selection": {
+            "background": "#1c2b41"
+          },
+          "caret": {
+            "foreground": "#82aaff"
+          },
+          "bracket_match": {
+            "background": "#1c2b4166"
+          },
+          "indentation_guide": {
+            "color": "#3e445266"
+          },
+          "invisible": {
+            "color": "#3e445266"
+          },
+          "find": {
+            "background": "#82aaff4d"
+          },
+          "gutter": {
+            "background": "#0c1810"
+          }
+        },
+        "statusbar": {
+          "background": "#0c1810",
+          "text": "#c5cdd9"
+        },
+        "titlebar": {
+          "background": "#0c1810",
+          "text": "#c5cdd9"
+        },
+        "tabs": {
+          "background": "#090b10",
+          "text": "#c5cdd9",
+          "active": {
+            "background": "#1b1f27",
+            "text": "#82aaff"
+          }
+        },
+        "terminal": {
+          "background": "#090b10",
+          "foreground": "#c5cdd9",
+          "ansi": {
+            "black": "#090b10",
+            "red": "#ff757f",
+            "green": "#c3e88d",
+            "yellow": "#ffc777",
+            "blue": "#82aaff",
+            "magenta": "#c792ea",
+            "cyan": "#89ddff",
+            "white": "#c5cdd9"
+          },
+          "bright_ansi": {
+            "black": "#414868",
+            "red": "#ff757f",
+            "green": "#c3e88d",
+            "yellow": "#ffc777",
+            "blue": "#82aaff",
+            "magenta": "#c792ea",
+            "cyan": "#89ddff",
+            "white": "#c5cdd9"
+          }
+        },
+        "pane": {
+          "background": "#0c1810",
+          "border": {
+            "color": "#1b1f27"
+          }
+        }
+      }
+    }
+  ]
+}

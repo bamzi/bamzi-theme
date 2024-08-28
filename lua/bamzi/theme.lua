@@ -556,7 +556,10 @@ theme.set_highlights = function()
 	hl(0, "tomlTSProperty", { fg = c.blue, bg = "NONE" })
 	-- Neotree
 	hl(0, "NeoTreeDimText", { fg = c.dark_gray, bg = "NONE" })
+	hl(0, "NeoTreeFloatBorder", { fg = c.dark_gray, bg = "NONE" })
 	hl(0, "NeoTreeFloatTitle", { fg = c.orange, bg = "NONE" })
+	hl(0, "NeoTreeFloatNormal", { fg = c.orange, bg = "NONE" })
+	hl(0, "NeoTreeMessage", { fg = c.orange, bg = "NONE" })
 end
 
 return theme

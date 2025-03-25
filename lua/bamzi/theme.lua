@@ -562,6 +562,8 @@ theme.set_highlights = function()
 	hl(0, "NeoTreeFloatTitle", { fg = c.orange, bg = "NONE" })
 	hl(0, "NeoTreeFloatNormal", { fg = c.fg, bg = "NONE" })
 	hl(0, "NeoTreeMessage", { fg = c.orange, bg = "NONE" })
+	-- SNACK
+	hl(0, "SnacksPickerGitStatusUntracked", { fg = c.red, bg = "NONE" })
 end
 
 return theme

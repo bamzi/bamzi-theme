@@ -564,6 +564,7 @@ theme.set_highlights = function()
 	hl(0, "NeoTreeMessage", { fg = c.orange, bg = "NONE" })
 	-- SNACK
 	hl(0, "SnacksPickerGitStatusUntracked", { fg = c.red, bg = "NONE" })
+	hl(0, "SnacksPickerPathIgnored", { fg = c.md_gray, bg = "NONE" })
 end
 
 return theme

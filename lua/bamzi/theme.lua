@@ -565,6 +565,7 @@ theme.set_highlights = function()
 	-- SNACK
 	hl(0, "SnacksPickerGitStatusUntracked", { fg = c.red, bg = "NONE" })
 	hl(0, "SnacksPickerPathIgnored", { fg = c.md_gray, bg = "NONE" })
+	hl(0, "SnacksPickerMatch", { fg = c.info, bg = "NONE" })
 end
 
 return theme

@@ -563,6 +563,8 @@ theme.set_highlights = function()
 	hl(0, "NeoTreeFloatNormal", { fg = c.fg, bg = "NONE" })
 	hl(0, "NeoTreeMessage", { fg = c.orange, bg = "NONE" })
 	-- SNACK
+	--
+	hl(0, "SnacksPickerPathHidden", { fg = c.magenta, bg = "NONE" })
 	hl(0, "SnacksPickerGitStatusUntracked", { fg = c.red, bg = "NONE" })
 	hl(0, "SnacksPickerPathIgnored", { fg = c.md_gray, bg = "NONE" })
 	hl(0, "SnacksPickerMatch", { fg = c.info, bg = "NONE" })
